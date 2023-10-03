@@ -7,3 +7,60 @@
     font-family: 'Georgia';
     box-sizing: border-box;
 }
+
+.textbox {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(102, 32, 134);
+}
+
+.textboxx {
+    text-align: center;
+    color: white;
+    background-color: rgb(102, 32, 134);
+    font-size: large;
+}
+
+header {
+    color: white;
+    background-color: rgb(102, 32, 134);
+}
+ 
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #6c757d;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
