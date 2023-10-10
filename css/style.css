@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+
+
+
+
 .textbox {
     text-align: center;
     align-items: center;
@@ -23,24 +27,50 @@
     font-size: large;
 }
 
-.text{
+.text {
     text-align: center;
+}
+
+
+
+
+
+.cabecalho {
+    backdrop-filter: blur(6px);
+
 }
 
 header {
     color: white;
-    background-color: rgb(102, 32, 134);
+    background-color: rgb(45, 19, 58);
     text-align: center;
 }
 
-.img-apoiadores{
+footer {
+    color: white;
+    background-color: rgb(51, 19, 66);
+    text-align: center;
+}
+
+
+
+
+
+.img-apoiadores {
     display: flex;
     margin: 0 20px;
     padding: 0 20px;
-    width: 180px; 
-    height: 130px;
+    align-items: center;
 }
- 
+
+logo {
+
+}
+
+
+
+
+
 .container {
     width: 1200px;
     max-width: 100%;
@@ -49,6 +79,10 @@ header {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+
+
+
 
 .input-container {
     margin-bottom: 10px;
@@ -61,8 +95,12 @@ header {
     font-size: 14px;
 }
 
+
+
+
+
 button {
-    background-color: #007bff;
+    background-color: #28a532;
     color: white;
     border: none;
     border-radius: 4px;
