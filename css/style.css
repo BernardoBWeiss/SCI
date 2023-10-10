@@ -17,13 +17,13 @@
     align-items: center;
     justify-content: center;
     color: white;
-    background-color: rgb(102, 32, 134);
+    background-color: rgb(109, 50, 136);
 }
 
 .textboxx {
     text-align: center;
     color: white;
-    background-color: rgb(102, 32, 134);
+    background-color: rgb(110, 50, 138);
     font-size: large;
 }
 
@@ -33,9 +33,7 @@
 
 
 
-
-
-.cabecalho {
+.cabeçalho {
     backdrop-filter: blur(6px);
 
 }
@@ -48,7 +46,7 @@ header {
 
 footer {
     color: white;
-    background-color: rgb(51, 19, 66);
+    background-color: rgb(45, 19, 58);
     text-align: center;
 }
 
@@ -63,9 +61,7 @@ footer {
     align-items: center;
 }
 
-logo {
-
-}
+.logo {}
 
 
 
@@ -97,21 +93,3 @@ logo {
 
 
 
-
-
-button {
-    background-color: #28a532;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-button[type="reset"] {
-    background-color: #6c757d;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
