@@ -23,9 +23,22 @@
     font-size: large;
 }
 
+.text{
+    text-align: center;
+}
+
 header {
     color: white;
     background-color: rgb(102, 32, 134);
+    text-align: center;
+}
+
+.img-apoiadores{
+    display: flex;
+    margin: 0 20px;
+    padding: 0 20px;
+    width: 180px; 
+    height: 130px;
 }
  
 .container {
