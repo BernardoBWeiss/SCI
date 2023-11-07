@@ -12,35 +12,41 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    color: white;
-    background-color: rgb(109, 50, 136);
-}
-
-.textboxx {
-    text-align: center;
-    color: white;
-    background-color: rgb(110, 50, 138);
-    font-size: large;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 .text {
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
 }
 
-.cabecalho {
-    backdrop-filter: blur(6px);
-
+.fundo::before {
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: ('http://videira.ifc.edu.br/tecnico-informatica/wp-content/uploads/sites/18/2020/10/20191031_163536_49024124977_o.jpg');
 }
 
 header {
     color: white;
-    background-color: rgb(45, 19, 58);
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
 
 footer {
     color: white;
-    background-color: rgb(45, 19, 58);
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -59,63 +65,10 @@ nav a {
     color: #fff;
 }
 
-.img-apoiadores {
-    display: flex;
-    margin: 0 20px;
-    padding: 0 20px;
-    align-items: center;
-}
-
-.container {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.input-container {
-    margin-bottom: 10px;
-}
-
-.input-container label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    font-size: 14px;
-}
-
 button {
     background-color: transparent;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-button[type="1"] {
-    background-color: #0a9616;
-    color: white;
-    border: #0a9616;
-    border-radius: 4px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-button[type="2"] {
-    background-color: rgb(18, 71, 32);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-button[type="3"] {
-    background-color: rgb(161, 32, 32);
-    color: white;
+    color: rgb(255, 255, 255);
+    background-color: black;
     border: none;
     border-radius: 4px;
     padding: 10px;
@@ -124,24 +77,20 @@ button[type="3"] {
 
 button:hover {
     background-color: transparent;
-    color: #0a9616;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
 }
 
-button:hover[type="1"] {
+button1 {
     background-color: transparent;
-    color: #0a9616;
-    border: #0a9616;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
 }
 
-button:hover[type="2"] {
+button1:hover {
     background-color: transparent;
-    color: rgb(18, 71, 32);
-    border: rgb(18, 71, 32);
+    color: #000000;
 }
-
-button:hover[type="3"] {
-    background-color: transparent;
-    color: rgb(161, 32, 32);
-    border: rgb(161, 32, 32);
-}
-
